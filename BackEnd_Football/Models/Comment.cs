@@ -11,6 +11,6 @@ namespace BackEnd_Football.Models
         public string comments { get; set; } = "";
         public DateTime time { get; set; }
         public News? News { get; set; }
-        public SqlUser? useComments { get; set; }
+        public SqlUser? userComments { get; set; }
     }
 }
